@@ -36,10 +36,10 @@ Response
 **GET /report/merchant/:merchant_id/omzet**
 
 Query Params:
-- `start_date` (YYYY-MM-DD) default today date.
-- `end_date` (YYYY-MM-DD) default today date.
-- `page` default 1
-- `count` default 20
+- `start_date` (YYYY-MM-DD) default: today's date
+- `end_date` (YYYY-MM-DD) default: today's date
+- `page` default: 1
+- `count` default: 20
 
 Request
 ```
@@ -90,10 +90,10 @@ Response
 **GET /report/outlet/:outlet_id/omzet**
 
 Query Params:
-- `start_date` (YYYY-MM-DD) default today date.
-- `end_date` (YYYY-MM-DD) default today date.
-- `page` default 1
-- `count` default 20
+- `start_date` (YYYY-MM-DD) default: today's date
+- `end_date` (YYYY-MM-DD) default: today's date
+- `page` default: 1
+- `count` default: 20
 
 Request
 ```
