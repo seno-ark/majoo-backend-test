@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"log"
 	"majoo-backend-test/constant"
 	"majoo-backend-test/controller"
@@ -55,5 +54,5 @@ func main() {
 	reportRoute.GET("/merchant/:merchant_id/omzet", controller.MerchantOutletOmzet)
 	reportRoute.GET("/outlet/:outlet_id/omzet", controller.MerchantOutletOmzet)
 
-	e.Logger.Fatal(e.Start(fmt.Sprintf(":%s", os.Getenv("PORT"))))
+	e.Logger.Fatal(e.Start(os.Getenv("PORT")))
 }
