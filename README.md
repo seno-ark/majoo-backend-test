@@ -9,6 +9,8 @@ ___
 
 ## API Endpoints
 
+### Login
+
 **POST /login**
 
 Form Data:
@@ -32,6 +34,8 @@ Response
   }
 }
 ```
+
+### Merchant Report
 
 **GET /report/merchant/:merchant_id/omzet**
 
@@ -86,6 +90,8 @@ Response
   }
 }
 ```
+
+### Outlet Report
 
 **GET /report/outlet/:outlet_id/omzet**
 
