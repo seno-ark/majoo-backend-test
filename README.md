@@ -1,4 +1,6 @@
-# Majoo Backend Test
+# Outlet Omzet Api
+
+majoo-backend-test
 
 ## How to run
 ```
